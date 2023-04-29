@@ -2,8 +2,7 @@
     font-family: WNM-Regular-text;
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/WNM-Regular-text.woff) format('woff'),
-	    url(../webfonts/WNM-Regular-text.woff2) format('woff2'),
+    src:url(../webfonts/WNM-Regular-text.woff2) format('woff2'),
 	    url(../webfonts/WNM-Regular-text.ttf) format('truetype');
 }
 
@@ -11,8 +10,7 @@
     font-family: WNM-Medium-text;
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/WNM-Medium-text.woff) format('woff'),
-	    url(../webfonts/WNM-Medium-text.woff2) format('woff2'),
+    src:url(../webfonts/WNM-Medium-text.woff2) format('woff2'),
 	    url(../webfonts/WNM-Medium-text.ttf) format('truetype');
 }
 
@@ -20,8 +18,7 @@
     font-family: WNM-Bold-text;
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/WNM-Bold-text.woff) format('woff'),
-	    url(../webfonts/WNM-Bold-text.woff2) format('woff2'),
+    src:url(../webfonts/WNM-Bold-text.woff2) format('woff2'),
 	    url(../webfonts/WNM-Bold-text.ttf) format('truetype');
 }
 
@@ -210,7 +207,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: 'WNM-Regular', sans-serif;
+		font-family: 'WNM-Regular-text', sans-serif;
 		font-weight: normal;
 		font-size: 1rem;
 		font-style: normal;
@@ -231,7 +228,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-family: 'WNM-Bold', sans-serif;
+		font-family: 'WNM-Bold-text', sans-serif;
 		font-weight: normal;
 	}
 
@@ -264,12 +261,12 @@ input, select, textarea {
 		}
 		
 		.medium {
-			font-family: 'WNM-Medium', sans-serif;
+			font-family: 'WNM-Medium-text', sans-serif;
 		    font-weight: normal;
 		}
 		
 		.bold {
-			font-family: 'WNM-Bold', sans-serif;
+			font-family: 'WNM-Bold-text', sans-serif;
 		    font-weight: normal;
 		}
 
