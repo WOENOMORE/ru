@@ -8,30 +8,21 @@
 }
 
 @font-face {
-	font-family: WNM-Regular;
+    font-family: WNM-Medium-text;
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/WNM-Regular.woff) format('woff'),
-	    url(../webfonts/WNM-Regular.woff2) format('woff2'),
-	    url(../webfonts/WNM-Regular.ttf) format('truetype');
+    src:url(../webfonts/WNM-Medium-text.woff) format('woff'),
+	    url(../webfonts/WNM-Medium-text.woff2) format('woff2'),
+	    url(../webfonts/WNM-Medium-text.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: WNM-P-Regular;
+    font-family: WNM-Bold-text;
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/WNM-P-Regular.woff) format('woff'),
-	    url(../webfonts/WNM-P-Regular.woff2) format('woff2'),
-	    url(../webfonts/WNM-P-Regular.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: WNM-Bold;
-    font-weight: normal;
-    font-style: normal;
-    src:url(../webfonts/WNM-Bold.woff) format('woff'),
-	    url(../webfonts/WNM-Bold.woff2) format('woff2'),
-	    url(../webfonts/WNM-Bold.ttf) format('truetype');
+    src:url(../webfonts/WNM-Bold-text.woff) format('woff'),
+	    url(../webfonts/WNM-Bold-text.woff2) format('woff2'),
+	    url(../webfonts/WNM-Bold-text.ttf) format('truetype');
 }
 
 
@@ -201,15 +192,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		-webkit-font-feature-settings: 'ss04' 1;
-        -moz-font-feature-settings:    'ss04' 1;
-        -ms-font-feature-settings:     'ss04' 1;
-        font-feature-settings:         'ss04' 1;
-		-webkit-font-feature-settings: 'ss12' 1;
-        -moz-font-feature-settings:    'ss12' 1;
-        -ms-font-feature-settings:     'ss12' 1;
-        font-feature-settings:         'ss12' 1;
-		font-family: 'WNM-Regular', sans-serif;
+		font-family: 'WNM-Regular-text', sans-serif;
 		font-weight: normal;
 		font-size: 1rem;
 		font-style: normal;
@@ -230,7 +213,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-family: 'WNM-Bold', sans-serif;
+		font-family: 'WNM-Bold-text', sans-serif;
 		font-weight: normal;
 	}
 
@@ -262,8 +245,8 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 		
-		.bold {
-			font-family: 'WNM-Bold', sans-serif;
+		.medium {
+			font-family: 'WNM-Medium-text', sans-serif;
 		    font-weight: normal;
 		}
 		
