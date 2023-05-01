@@ -41,6 +41,14 @@
 }
 
 @font-face {
+    font-family: WNM-Bold-logo;
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/WNM-Bold-logo.woff2) format('woff2'),
+	    url(../webfonts/WNM-Bold-logo.ttf) format('truetype');
+}
+
+@font-face {
     font-family: WNM-Heavy-logo;
     font-weight: normal;
     font-style: normal;
@@ -280,7 +288,7 @@ input, select, textarea {
 		}
 		
 		.logotype {
-			font-family: 'WNM-Heavy-logo', sans-serif;
+			font-family: 'WNM-Bold-logo', sans-serif;
 		    font-weight: normal;
 		}
 
