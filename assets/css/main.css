@@ -221,7 +221,7 @@ input, select, textarea {
 		font-size: 1rem;
 		font-style: normal;
 		letter-spacing: 0;
-		line-height: 1.2;
+		line-height: 1.15;
 	}
 
 	a {
@@ -255,7 +255,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: normal;
-		line-height: 0.9;
+		line-height: 0.95;
 		letter-spacing: 0;
 		margin: 0 0 1rem 0;
 	}
@@ -3140,7 +3140,7 @@ input, select, textarea {
 
 			         ul.topmenu li {
 				         display: block;
-						 padding-left: 0;
+						 padding: 0 0 0.25rem 0;
 			         }
 
 		       }
