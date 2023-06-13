@@ -1,8 +1,8 @@
 @font-face {
-    font-family: Helvetica Now Display;
-    font-weight: normal;
+    font-family: HaasGrotDisp-55Roman;
+    src: url(../webfonts/HaasGrotDisp-55Roman.woff2) format('woff2');
+    font-display: swap;
     font-style: normal;
-    src:url(../webfonts/Helvetica_Now_Display.woff2) format('woff2');
 }
 
 
@@ -173,7 +173,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: 'Helvetica Now Display', 'Helvetica Neue', Helvetica, sans-serif;
+		font-family: 'HaasGrotDisp-55Roman', 'Helvetica Neue', Helvetica, sans-serif;
 		font-weight: normal;
 		font-size: 1rem;
 		font-style: normal;
@@ -212,7 +212,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: normal;
-		line-height: 0.95;
+		line-height: 1;
 		letter-spacing: 0;
 		margin: 0 0 1rem 0;
 	}
